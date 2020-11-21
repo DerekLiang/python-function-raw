@@ -56,3 +56,8 @@ Azure Functions developed and deployed with Python.
     $ curl "$(pulumi stack output endpoint)"
     Hello from Python, Pulumi!
     ```
+2. Test locally:
+    ```bash
+    $ func init # optional
+    $ func start --python
+    ```
